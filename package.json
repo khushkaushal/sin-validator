@@ -1,0 +1,19 @@
+{
+  "name": "sin-validator",
+  "version": "1.0.0",
+  "description": "validates your sin number",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "validate": "node index.js"
+  },
+  "author": "khush kaushal",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
